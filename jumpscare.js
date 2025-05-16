@@ -10,15 +10,24 @@ playAudio();
 let lobsters = document.querySelectorAll('img');
 let currentSpeed = 6;
 
-let button = document.getElementById("button");
+let speedUpButton = document.getElementById("speed");
+let slowDownButton = document.getElementById("slow");
 
 
-function cow() {
+function speeed() {
 	currentSpeed /= 2;
 	for (let i = 0; i < lobsters.length; i++) {
 		lobsters[i].style.animationDuration = currentSpeed + 's';
 	} 
 }
-button.addEventListener('click', cow);
+function slooow() {
+	currentSpeed *= 2;
+	for (let i = 0; i < lobsters.length; i++) {
+		lobsters[i].style.animationDuration = currentSpeed + 's';
+	} 
+}
+
+speedUpButton.addEventListener('click', speeed);
+slowDownButton.addEventListener('click', slooow);
 
 
