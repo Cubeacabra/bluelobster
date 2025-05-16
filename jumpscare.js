@@ -15,7 +15,7 @@ let button = document.getElementById("button");
 
 function cow() {
 	for (let i = 0; i < lobsters.length; i++) {
-		currentSpeed /= 0.5;
+		currentSpeed /= 2;
 		lobsters[i].style.animationDuration = currentSpeed + 's';
 	} 
 }
