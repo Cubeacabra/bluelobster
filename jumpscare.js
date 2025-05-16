@@ -10,7 +10,7 @@ playAudio();
 let lobsters = document.querySelectorAll('img');
 let currentSpeed = 6;
 
-let button = document.getElementById('button');
+let button = document.getElementById("button");
 
 
 function cow() {
