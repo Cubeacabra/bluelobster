@@ -30,7 +30,7 @@ h4 {
 	color: rgb(135, 249, 255);
 }
 
-#button {
+#speed, #slow {
 	padding:1%;
 	background-color:#93ff93;
 	border-color:#2c522c;
