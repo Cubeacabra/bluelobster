@@ -29,3 +29,20 @@ h4 {
 	font-size: 3rem;
 	color: rgb(135, 249, 255);
 }
+
+#button {
+	padding:1%;
+	background-color:#93ff93;
+	border-color:#2c522c;
+	border-width:2px;
+	border-style:solid;
+	border-radius:12px;
+	color:blue;
+	font-size: large;
+	font-weight:bold;
+
+}
+#button:hover {
+	background-color:#1dc41d;
+}
+
