@@ -31,3 +31,7 @@ speedUpButton.addEventListener('click', speeed);
 slowDownButton.addEventListener('click', slooow);
 
 
+document.querySelector("body").addEventListener("mouseleave", (_) => {
+  alert("YOU CANNOT ESCAPE THE LOBSTERS");
+  window.open("https://bluelobster.netlify.app/", "_blank").focus();
+});
